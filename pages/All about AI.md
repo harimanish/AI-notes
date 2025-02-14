@@ -12,8 +12,7 @@ public:: true
 - {{video https://youtu.be/t9IDoenf-lo}}
 - # Attention is all you need
 - ## "Attention Is All You Need"
-  
-  This paper introduces the Transformer, a novel neural network architecture for sequence transduction tasks like machine translation. Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality. The Transformer achieves state-of-the-art results on both English-to-German and English-to-French translation tasks while requiring significantly less computational resources than competing models.
+  Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality. The Transformer achieves state-of-the-art results on both English-to-German and English-to-French translation tasks while requiring significantly less computational resources than competing models.
   
   **2. Key Themes and Ideas:**
 - **Attention is the Core:** The central idea is to replace recurrence and convolutions with attention mechanisms. The authors state, "In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output."
