@@ -10,7 +10,7 @@ public:: true
 - Vector databases are specialized systems designed to store, index, and retrieve high-dimensional vectors
 -
 - {{video https://youtu.be/t9IDoenf-lo}}
--
+- /h1
 - # Github repos
 - [project pastra](https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide)
 - [GoogleAI](https://github.com/GoogleCloudPlatform/generative-ai)
