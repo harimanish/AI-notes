@@ -10,7 +10,63 @@ public:: true
 - Vector databases are specialized systems designed to store, index, and retrieve high-dimensional vectors
 -
 - {{video https://youtu.be/t9IDoenf-lo}}
-- # Att
+- # Attention is all you need
+- ## "Attention Is All You Need"
+  
+  **Subject:** Review of the Transformer Model for Sequence Transduction
+  
+  **Source:** Vaswani, A. et al. (2017). Attention Is All You Need. *31st Conference on Neural Information Processing Systems (NIPS 2017)*, Long Beach, CA, USA.
+  
+  **Date:** October 26, 2023
+  
+  **1. Executive Summary:**
+  
+  This paper introduces the Transformer, a novel neural network architecture for sequence transduction tasks like machine translation. Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality. The Transformer achieves state-of-the-art results on both English-to-German and English-to-French translation tasks while requiring significantly less computational resources than competing models.
+  
+  **2. Key Themes and Ideas:**
+- **Attention is the Core:** The central idea is to replace recurrence and convolutions with attention mechanisms. The authors state, "In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output."
+- **Parallelization:** A major advantage of the Transformer is its ability to parallelize computation. "This inherently sequential nature precludes parallelization within training examples, which becomes critical at longer sequence lengths... In this work we propose the Transformer... The Transformer allows for significantly more parallelization..."
+- **Self-Attention:** The model leverages self-attention (also called intra-attention) to relate different positions within a single sequence, capturing dependencies without regard to their distance. "Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence."
+- **Encoder-Decoder Architecture:** The Transformer retains the encoder-decoder structure common in sequence transduction models. "Most competitive neural sequence transduction models have an encoder-decoder structure."
+- **Multi-Head Attention:** The paper introduces multi-head attention, which allows the model to attend to information from different representation subspaces at different positions. "Multi-head attention allows the model to jointly attend to information from different representation subspaces at different positions. With a single attention head, averaging inhibits this."
+- **Positional Encoding:** Since the model lacks recurrence or convolution, positional encodings are added to the input embeddings to provide information about the order of tokens. "Since our model contains no recurrence and no convolution, in order for the model to make use of the order of the sequence, we must inject some information about the relative or absolute position of the tokens in the sequence." The authors use sine and cosine functions for this.
+- **Reduced Path Length:** The authors argue that learning long-range dependencies is easier when the path length between input and output positions is shorter. Self-attention provides a constant path length.
+- **Superior Performance:** The Transformer achieves state-of-the-art results on machine translation tasks. "On the WMT 2014 English-to-German translation task, the big transformer model... outperforms the best previously reported models (including ensembles) by more than 2.0 BLEU, establishing a new state-of-the-art BLEU score of 28.4."
+- **Efficiency:** The model is trained more efficiently than previous state-of-the-art models. "...can reach a new state of the art in translation quality after being trained for as little as twelve hours on eight P100 GPUs."
+  
+  **3. Model Architecture Details:**
+- **Encoder:** Stack of N=6 identical layers. Each layer contains:
+- Multi-head self-attention mechanism.
+- Position-wise fully connected feed-forward network.
+- Residual connections and layer normalization.
+- **Decoder:** Stack of N=6 identical layers. Each layer contains:
+- Multi-head self-attention mechanism (with masking to prevent attending to future positions).
+- Multi-head attention over the output of the encoder stack.
+- Position-wise fully connected feed-forward network.
+- Residual connections and layer normalization.
+- **Attention Function:** Scaled Dot-Product Attention is used: Attention(Q,K, V ) = softmax(QKT / √dk)V
+- **Multi-Head Attention:** Queries, keys, and values are linearly projected *h* times with different learned linear projections. The attention function is applied in parallel, and the results are concatenated and projected again.
+- **Position-wise Feed-Forward Networks:** Two linear transformations with a ReLU activation in between.
+- **Embeddings:** Learned embeddings are used for input and output tokens. The same weight matrix is shared between the two embedding layers and the pre-softmax linear transformation.
+- **Positional Encoding:** Sine and cosine functions of different frequencies are added to the input embeddings.
+  
+  **4. Experimental Results:**
+- The Transformer achieves 28.4 BLEU on the WMT 2014 English-to-German translation task.
+- The Transformer achieves 41.0 BLEU on the WMT 2014 English-to-French translation task.
+- The Transformer requires significantly less training time and computational resources compared to previous state-of-the-art models (see Table 2 in the paper).
+- Ablation studies (Table 3) demonstrate the importance of multi-head attention, key size, model size, and dropout.
+  
+  **5. Implications and Future Work:**
+- The Transformer architecture represents a significant advancement in sequence transduction models, particularly for machine translation.
+- The attention-based approach offers advantages in terms of parallelization, training efficiency, and performance.
+- Future research directions include:
+- Applying the Transformer to other tasks beyond text.
+- Extending the model to handle large inputs and outputs (e.g., images, audio, video) using local attention mechanisms.
+- Making generation less sequential.
+  
+  **6. Conclusion:**
+  
+  The Transformer model, with its innovative use of attention mechanisms, offers a powerful and efficient alternative to recurrent and convolutional neural networks for sequence transduction. Its state-of-the-art performance and parallelizable architecture have made it a foundational model in the field of deep learning, influencing numerous subsequent works.
 - # Github repos
 - [project pastra](https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide)
 - [GoogleAI](https://github.com/GoogleCloudPlatform/generative-ai)
