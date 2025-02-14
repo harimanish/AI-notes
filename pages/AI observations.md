@@ -11,7 +11,8 @@ public:: true
 -
 - {{video https://youtu.be/t9IDoenf-lo}}
 -
-- # Git
+- # Github repos
+- https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide
 - # MLDS
 - ###### A Pragmatic Path to AI-Driven Business Growth: Harnessing an Agentic Perspective on Enterprise Strategy
   By **[Chirag Jain](https://mlds.analyticsindiamag.com/speaker/chirag-jain/)** Vice President, AI Practice at Genpact
