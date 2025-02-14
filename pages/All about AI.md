@@ -15,6 +15,11 @@ public:: true
 - [project pastra](https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide)
 - [GoogleAI](https://github.com/GoogleCloudPlatform/generative-ai)
 -
+-
+- # References
+- https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/
+- https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/
+-
 - # MLDS
 - ###### A Pragmatic Path to AI-Driven Business Growth: Harnessing an Agentic Perspective on Enterprise Strategy
   By **[Chirag Jain](https://mlds.analyticsindiamag.com/speaker/chirag-jain/)** Vice President, AI Practice at Genpact
@@ -26,10 +31,4 @@ public:: true
 - ###### Mastering Video Transcoding - Efficiency, Quality, and Best Practices
   
   By **[Arvind Sasikumar](https://mlds.analyticsindiamag.com/speaker/arvind-sasikumar/)** Co-Founder, CTO at Quinn
--
--
--
-- # References
-- https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/
-- https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/
 -
