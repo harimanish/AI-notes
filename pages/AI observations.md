@@ -11,6 +11,7 @@ public:: true
 -
 - {{video https://youtu.be/t9IDoenf-lo}}
 -
+- # Git
 - # MLDS
 - ###### A Pragmatic Path to AI-Driven Business Growth: Harnessing an Agentic Perspective on Enterprise Strategy
   By **[Chirag Jain](https://mlds.analyticsindiamag.com/speaker/chirag-jain/)** Vice President, AI Practice at Genpact
