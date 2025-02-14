@@ -13,12 +13,6 @@ public:: true
 - # Attention is all you need
 - ## "Attention Is All You Need"
   
-  **Subject:** Review of the Transformer Model for Sequence Transduction
-  
-  **Source:** Vaswani, A. et al. (2017). Attention Is All You Need. *31st Conference on Neural Information Processing Systems (NIPS 2017)*, Long Beach, CA, USA.
-  
-  **Date:** October 26, 2023
-  
   **1. Executive Summary:**
   
   This paper introduces the Transformer, a novel neural network architecture for sequence transduction tasks like machine translation. Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality. The Transformer achieves state-of-the-art results on both English-to-German and English-to-French translation tasks while requiring significantly less computational resources than competing models.
