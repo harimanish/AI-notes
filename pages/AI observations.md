@@ -13,6 +13,7 @@ public:: true
 -
 - # Github repos
 - [project pastra](https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide)
+- [GoogleAi](https://github.com/GoogleCloudPlatform/generative-ai)
 -
 - # MLDS
 - ###### A Pragmatic Path to AI-Driven Business Growth: Harnessing an Agentic Perspective on Enterprise Strategy
