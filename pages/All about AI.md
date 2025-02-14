@@ -12,9 +12,7 @@ public:: true
 - {{video https://youtu.be/t9IDoenf-lo}}
 - # Attention is all you need
 - ## "Attention Is All You Need"
-  Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality. The Transformer achieves state-of-the-art results on both English-to-German and English-to-French translation tasks while requiring significantly less computational resources than competing models.
-  
-  **2. Key Themes and Ideas:**
+  Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality.
 - **Attention is the Core:** The central idea is to replace recurrence and convolutions with attention mechanisms. The authors state, "In this work we propose the Transformer, a model architecture eschewing recurrence and instead relying entirely on an attention mechanism to draw global dependencies between input and output."
 - **Parallelization:** A major advantage of the Transformer is its ability to parallelize computation. "This inherently sequential nature precludes parallelization within training examples, which becomes critical at longer sequence lengths... In this work we propose the Transformer... The Transformer allows for significantly more parallelization..."
 - **Self-Attention:** The model leverages self-attention (also called intra-attention) to relate different positions within a single sequence, capturing dependencies without regard to their distance. "Self-attention, sometimes called intra-attention is an attention mechanism relating different positions of a single sequence in order to compute a representation of the sequence."
