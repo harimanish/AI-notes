@@ -9,7 +9,7 @@ public:: true
 - # Vector DB
 - Vector databases are specialized systems designed to store, index, and retrieve high-dimensional vectors
 -
-- {{video https://youtu.be/t9IDoenf-lo}}
+-
 - # Attention is all you need
 - ## "Attention Is All You Need"
   Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality.
