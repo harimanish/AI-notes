@@ -6,7 +6,6 @@ public:: true
 - **Vectors (Rank 1 Tensors):** A vector is an array of numbers representing magnitude and direction in space, like velocity or force.
 - **Matrices (Rank 2 Tensors):** A matrix is a two-dimensional array of numbers, often used to represent linear transformations or systems of linear equations.
 - **Higher-Rank Tensors:** Tensors of rank 3 and above can represent more complex relationships. For example, a 3D tensor can represent a volume of data, such as a color image with width, height, and color channels.
--
 - # Vector DB
 - Vector databases are specialized systems designed to store, index, and retrieve high-dimensional vectors
 -
