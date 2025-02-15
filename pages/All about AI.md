@@ -1,6 +1,6 @@
 public:: true
 
-- contirbuters
+- contirbuters:
 - # Goals
 - thiruvalluvar gpt
 - # Tensor
