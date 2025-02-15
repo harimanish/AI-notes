@@ -14,6 +14,7 @@ public:: true
 -
 - # Tools
 - https://gitingest.com/
+- https://huggingface.co/
 -
 - # Attention is all you need
 - ## "Attention Is All You Need"
