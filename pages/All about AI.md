@@ -1,6 +1,6 @@
 public:: true
 
-- contributers:
+- contributors:
 - # Goals
 - thiruvalluvar gpt
 - # Tensor
