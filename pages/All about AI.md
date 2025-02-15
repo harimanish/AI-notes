@@ -16,6 +16,7 @@ public:: true
 - https://gitingest.com/
 - https://huggingface.co/
 - https://huggingface.co/spaces
+- https://notebooklm.google.com/
 - # Attention is all you need
 - ## "Attention Is All You Need"
   Unlike previous dominant models relying on recurrent or convolutional neural networks, the Transformer is based entirely on attention mechanisms. This design allows for significantly more parallelization, leading to faster training times and superior translation quality.
