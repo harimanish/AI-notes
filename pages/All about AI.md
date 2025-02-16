@@ -9,9 +9,11 @@ public:: true
 - **Vectors (Rank 1 Tensors):** A vector is an array of numbers representing magnitude and direction in space, like velocity or force.
 - **Matrices (Rank 2 Tensors):** A matrix is a two-dimensional array of numbers, often used to represent linear transformations or systems of linear equations.
 - **Higher-Rank Tensors:** Tensors of rank 3 and above can represent more complex relationships. For example, a 3D tensor can represent a volume of data, such as a color image with width, height, and color channels.
+- # Transformer
+-
 - # LLM
-- **Transformer Model Architecture**: Explain the Transformer, a novel model architecture relying entirely on attention mechanisms to draw global dependencies between input and output, and how it allows for more parallelization.
-- **Attention Mechanisms**: Describe how attention mechanisms have become integral to sequence modeling and transduction models, allowing for the modeling of dependencies regardless of distance in input or output sequences. Explain the Scaled Dot-Product Attention mechanism, including the mathematical operations.
+- **Transformer Model Architecture**: Novel model architecture relying entirely on attention mechanisms to draw global dependencies between input and output,it allows for more parallelization.
+- **Attention Mechanisms**: Attention mechanisms have become integral to sequence modeling and transduction models, allowing for the modeling of dependencies regardless of distance in input or output sequences. Explain the Scaled Dot-Product Attention mechanism, including the mathematical operations.
 - **Multi-Head Attention**: Elaborate on multi-head attention, which allows the model to jointly attend to information from different representation subspaces at different positions.
 - **Encoder and Decoder Stacks**: Describe the encoder and decoder stacks in the Transformer model, including the use of multi-head self-attention and point-wise, fully connected feed-forward networks. Explain the role of residual connections and layer normalization.
 - **Positional Encoding**: Explain the role of positional encoding, which injects information about the relative or absolute position of the tokens in the sequence, using sine and cosine functions.
@@ -37,7 +39,8 @@ public:: true
 - # Github repos
 - [project pastra](https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide)
 - [GoogleAI](https://github.com/GoogleCloudPlatform/generative-ai)
--
+- [Gemini cookbook](https://github.com/google-gemini/cookbook)
+- [colab](https://github.com/GoogleCloudPlatform/generative-ai/blob/main/gemini/agents/research-multi-agents/intro_research_multi_agents_gemini_2_0.ipynb)
 -
 -
 - # Tools
