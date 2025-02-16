@@ -11,6 +11,11 @@ public:: true
 - **Higher-Rank Tensors:** Tensors of rank 3 and above can represent more complex relationships. For example, a 3D tensor can represent a volume of data, such as a color image with width, height, and color channels.
 - # Vector DB
 - Vector databases are specialized systems designed to store, index, and retrieve high-dimensional vectors
+- # Github repos
+- [project pastra](https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide)
+- [GoogleAI](https://github.com/GoogleCloudPlatform/generative-ai)
+-
+-
 -
 - # Tools
 - https://gitingest.com/
@@ -63,15 +68,7 @@ public:: true
   **6. Conclusion:**
   
   The Transformer model, with its innovative use of attention mechanisms, offers a powerful and efficient alternative to recurrent and convolutional neural networks for sequence transduction. Its state-of-the-art performance and parallelizable architecture have made it a foundational model in the field of deep learning, influencing numerous subsequent works.
-- # Github repos
-- [project pastra](https://github.com/heiko-hotz/gemini-multimodal-live-dev-guide)
-- [GoogleAI](https://github.com/GoogleCloudPlatform/generative-ai)
--
--
--
 - # References
 - https://research.google/blog/transformer-a-novel-neural-network-architecture-for-language-understanding/
 - https://www.anthropic.com/research/constitutional-classifiers
 - https://research.google/blog/chain-of-agents-large-language-models-collaborating-on-long-context-tasks/
-- {{video https://youtu.be/t9IDoenf-lo}}
--
