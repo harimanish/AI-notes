@@ -9,6 +9,29 @@ public:: true
 - **Vectors (Rank 1 Tensors):** A vector is an array of numbers representing magnitude and direction in space, like velocity or force.
 - **Matrices (Rank 2 Tensors):** A matrix is a two-dimensional array of numbers, often used to represent linear transformations or systems of linear equations.
 - **Higher-Rank Tensors:** Tensors of rank 3 and above can represent more complex relationships. For example, a 3D tensor can represent a volume of data, such as a color image with width, height, and color channels.
+- # LLM
+- **Transformer Model Architecture**: Explain the Transformer, a novel model architecture relying entirely on attention mechanisms to draw global dependencies between input and output, and how it allows for more parallelization.
+- **Attention Mechanisms**: Describe how attention mechanisms have become integral to sequence modeling and transduction models, allowing for the modeling of dependencies regardless of distance in input or output sequences. Explain the Scaled Dot-Product Attention mechanism, including the mathematical operations.
+- **Multi-Head Attention**: Elaborate on multi-head attention, which allows the model to jointly attend to information from different representation subspaces at different positions.
+- **Encoder and Decoder Stacks**: Describe the encoder and decoder stacks in the Transformer model, including the use of multi-head self-attention and point-wise, fully connected feed-forward networks. Explain the role of residual connections and layer normalization.
+- **Positional Encoding**: Explain the role of positional encoding, which injects information about the relative or absolute position of the tokens in the sequence, using sine and cosine functions.
+- **Self-Attention**: Define self-attention and its utility in computing a representation of a sequence by relating different positions of the single sequence.
+- **Benefits of Self-Attention**: Compare self-attention layers to recurrent and convolutional layers, considering computational complexity, parallelization, and path length for learning long-range dependencies.
+- **Training**: Describe the training data, hardware, schedule, optimizer, and regularization techniques used for the Transformer model.
+- **Machine Translation Results**: Present the machine translation results, including BLEU scores and training costs, and compare the Transformer to other models.
+- **Model Variations**: Discuss the effects of varying the number of attention heads, attention key sizes, and dropout rates on model performance.
+- **Large Language Models (LLMs)**: Define LLMs as having two files: a parameters file (weights of the neural network) and a run file (code to run the network).
+- **Model Training**: Explain that training involves compressing a large chunk of the internet (10 terabytes of text) using a GPU cluster (6,000 GPUs for 12 days, costing $2 million) into parameters.
+- **Next Word Prediction**: Explain how LLMs work by predicting the next word in a sequence.
+- **Neural Network Architecture**: Describe the Transformer neural network architecture and the role of parameters within it.
+- **Pre-training and Fine-tuning**: Describe the two stages of training: pre-training on internet text for knowledge and fine-tuning on Q&A data for alignment.
+- **Customization**: Discuss customization through custom instructions, file uploads, and retrieval-augmented generation.
+- **Tool Use**: Highlight the importance of tool use in LLMs, such as browsing, calculation, and code generation.
+- **Multimodality**: Explain how LLMs are improving through multimodality, including generating and seeing images, as well as hearing and speaking.
+- **System One vs. System Two Thinking**: Contrast System One (instinctive) and System Two (reasoning) thinking and the efforts to give LLMs a System Two.
+- **Self-Improvement**: Discuss self-improvement in LLMs, drawing parallels to AlphaGo, and the challenges of creating a general reward criterion.
+- **Security Challenges**: Address security challenges like jailbreak attacks, prompt injection, and data poisoning.
+-
 - # Vector DB
 - Vector databases are specialized systems designed to store, index, and retrieve high-dimensional vectors
 - # Github repos
